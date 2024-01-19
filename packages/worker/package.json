@@ -1,0 +1,70 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "@astropub/worker",
+	"description": "Use Web Workers in Astro",
+	"version": "0.1.0",
+	"type": "module",
+	"license": "(MIT-0 AND Apache-2.0)",
+	"exports": {
+		".": {
+			"default": "./integration.js",
+			"types": "./integration.d.ts"
+		},
+		"./integration": {
+			"default": "./integration.js",
+			"types": "./integration.d.ts"
+		},
+		"./polyfill": {
+			"default": "./polyfill.js",
+			"types": "./polyfill.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"main": "integration.js",
+	"types": "integration.d.ts",
+	"unpkg": "integration.js",
+	"jsdelivr": "integration.js",
+	"sideEffects": false,
+	"files": [
+		"integration.js",
+		"implementation.js",
+		"polyfill.js",
+		"polyfill.d.ts"
+	],
+	"keywords": [
+		"astro-integration",
+		"astro-component",
+		"ui",
+		"analytics",
+		"async",
+		"asynchronous",
+		"background",
+		"background-task",
+		"background-tasks",
+		"build",
+		"html",
+		"node",
+		"nodejs",
+		"parallel",
+		"parallelism",
+		"performance",
+		"polyfill",
+		"renderer",
+		"server",
+		"share",
+		"shared",
+		"task",
+		"tasks",
+		"thread",
+		"threading",
+		"web",
+		"web-worker",
+		"web-workers",
+		"worker",
+		"workers"
+	],
+	"author": "Jonathan Neal <jonathantneal@hotmail.com>",
+	"bugs": "https://github.com/astro-community/worker/issues",
+	"homepage": "https://github.com/astro-community/worker",
+	"repository": "https://github.com/astro-community/worker.git"
+}
