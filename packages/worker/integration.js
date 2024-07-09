@@ -17,7 +17,7 @@ export default function AstroIntegration() {
 											const source = new MagicString(code)
 
 											// patch for globalThis.Worker
-											if (options.ssr) {
+											if (options?.ssr) {
 												source.appendLeft(0, `import "@astropub/worker/polyfill";`)
 											}
 
