@@ -27,6 +27,7 @@
 	"sideEffects": false,
 	"files": [
 		"integration.js",
+		"integration.d.ts",
 		"implementation.js",
 		"polyfill.js",
 		"polyfill.d.ts"
