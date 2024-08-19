@@ -2,7 +2,7 @@
 	"$schema": "https://json.schemastore.org/package.json",
 	"name": "@astropub/worker",
 	"description": "Use Web Workers in Astro",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"type": "module",
 	"license": "(MIT-0 AND Apache-2.0)",
 	"exports": {
